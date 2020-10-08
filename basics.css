@@ -1,0 +1,47 @@
+body{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	background-color: #e7e7e7;
+	padding: 0 1.5rem;
+	font-family: sans-serif;
+}
+
+.image{
+		background: #fff;
+	border-radius: 10px;
+	box-shadow: 0px 10px 10px rgba(0,0,0,.2);
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 100%;
+	overflow: hidden;
+	width: 700px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.item-detail{
+	opacity: .6;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	padding-left: : 20px;
+
+}
+
+.item_style{
+	letter-spacing: 3px;
+	margin: 5px;
+}
+.price{
+	letter-spacing: 2px;
+	margin: 6px;
+	margin-top: 20px;
+}
+
+.form-group{
+	letter-spacing: 1px;
+	padding: 13px;
+}

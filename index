@@ -1,0 +1,49 @@
+<html>
+<head><style>
+body{
+	background: linear-gradient(rgba(0 ,0 ,50 ,0.5),rgba(0 ,0 ,50 ,0.5)),url(images/home_page_bg.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.login-box{
+	max-width: 700px;
+	float: none;
+	margin: 150px auto;
+}
+
+.login-center{
+	background: rgba(211, 211, 211, 0.5);
+	padding: 30px;
+	text-align: center;
+}
+</style>
+		<title>user login form</title>
+		
+<meta name = "viewport" content="width=device-width, initial-scale=1.0">	
+<link rel="stylesheet" type=text/css
+href=https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css>
+</head>
+<body>
+	
+   <div class="container">
+		<div class="login-box">
+		<div class="row">
+		<div class="col-md-6 login-center">
+			<h2> Login here </h2>
+			<form action="login.php" method="get" >
+				<div class="form-group">
+					<label>Email/phone no:</label><span style="color: red;"> *</span>
+					<input type="text" name="user" placeholder = "Enter data"class="form-control" required>
+					</div>
+				<div class="form-group">
+					<label>password:</label><span style="color: red;"> *</span>
+					<input type="password" name="password" placeholder = "6+characters" class="form-control" required>
+					</div>
+				<input type="submit" name="login" value="login">
+ 
+    </form>
+</div>
+</div>
+</body>
+<html>
